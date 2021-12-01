@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(3, 140, 208, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input {
+  min-width: 20%;
+}
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+form button {
+  color: #2323d1;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #9c9a9a;
+  color: #2323d1;
+}
+
+.Todo-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Todo {
+  margin: 0.3rem;
+  background: linear-gradient(0deg, #536976, #292e49);
+  font-size: 1.5rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 35%;
+  list-style: none;
+  max-height: 3rem;
+  letter-spacing: 3px;
+}
+.Icons {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.Completed {
+  color: rgb(20, 224, 20);
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.Delete-icon {
+  color: rgb(194, 4, 4);
+}
+.Completed-icon {
+  color: rgb(20, 224, 20);
+}
